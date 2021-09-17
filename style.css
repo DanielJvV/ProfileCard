@@ -71,6 +71,14 @@ body {
     background-repeat: no-repeat, no-repeat;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 1rem;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -104,6 +112,25 @@ body {
 
 .footStats div {
     margin: 5% auto;
+}
+
+
+/***************
+3.) Desktop Size
+****************/
+
+
+/***************
+4.) Footer
+****************/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 
